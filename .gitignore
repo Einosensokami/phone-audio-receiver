@@ -1,0 +1,9 @@
+# Third-party binaries downloaded by Start-WifiReceiver.ps1
+/vendor/*.zip
+/vendor/ShairportQt-*/
+
+# Local settings and credentials
+.env
+.env.*
+!.env.example
+*.log
