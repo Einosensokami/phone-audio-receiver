@@ -2,10 +2,10 @@
 
 ## Wi-Fi 使用方式（預設）
 
-現在雙擊 `Start-Receiver.vbs` 會啟動 ShairportQt AirPlay 接收器；原本的藍牙版本改由 `Start-BluetoothReceiver.vbs` 啟動。
+現在雙擊 `Start-WifiReceiver.vbs` 會啟動 ShairportQt AirPlay 接收器；原本的藍牙版本改由 `Start-BluetoothReceiver.vbs` 啟動。
 
 1. 手機與電腦連到同一個家用區域網路；手機也可以連到同一台路由器下、能互通的 Wi-Fi。
-2. 雙擊 `Start-Receiver.vbs`，保持 Shairport 視窗或系統匣程式開啟。
+2. 雙擊 `Start-WifiReceiver.vbs`，保持 Shairport 視窗或系統匣程式開啟。
 3. 如 Windows 顯示防火牆提示，允許 ShairportQt 在目前可信任的家用網路通訊。目前此 Wi-Fi 被 Windows 設為「公用」，只允許「私人」不會套用到目前連線。也可以在 Windows「設定 → 網路和網際網路 → Wi-Fi → 目前網路」中，確認是可信任的家用網路後自行設為「私人」。
 4. 在 iPhone 播放音樂，打開「控制中心」，點音樂播放區的 AirPlay 圖示，選擇 `Phone Audio - 電腦名稱`。請使用音訊輸出選單。
 5. 音量可由手機及 Windows 調整。停止接收時，在 Shairport 選單選擇 Quit；關閉視窗可能只會縮到系統匣。
